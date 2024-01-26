@@ -1,0 +1,15 @@
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.csproj.AssemblyReference.cache
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.AssemblyInfoInputs.cache
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.AssemblyInfo.cs
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.csproj.CoreCompileInputs.cache
+/Users/amirsabahi/projects/csharp-codes/type-casting/bin/Debug/net7.0/type-casting
+/Users/amirsabahi/projects/csharp-codes/type-casting/bin/Debug/net7.0/type-casting.deps.json
+/Users/amirsabahi/projects/csharp-codes/type-casting/bin/Debug/net7.0/type-casting.runtimeconfig.json
+/Users/amirsabahi/projects/csharp-codes/type-casting/bin/Debug/net7.0/type-casting.dll
+/Users/amirsabahi/projects/csharp-codes/type-casting/bin/Debug/net7.0/type-casting.pdb
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.dll
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/refint/type-casting.dll
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.pdb
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/type-casting.genruntimeconfig.cache
+/Users/amirsabahi/projects/csharp-codes/type-casting/obj/Debug/net7.0/ref/type-casting.dll
