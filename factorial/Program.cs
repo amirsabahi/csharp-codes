@@ -1,8 +1,8 @@
 ﻿using System;
 try
 {
-        uint result = factorial(100); 
-        WriteLine($"Factorial of 10 is {result}");
+    uint result = factorial(100);
+    WriteLine($"Factorial of 10 is {result}");
 }
 catch (ArgumentOutOfRangeException ex)
 {
