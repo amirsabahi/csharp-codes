@@ -2,6 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Merge Two Sorted Lists",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/MergeTwoArrays/bin/Debug/net7.0/MergeTwoArrays.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/MergeTwoArrays",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
             "name": "Selection Sort",
             "type": "coreclr",
             "request": "launch",
