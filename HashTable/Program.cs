@@ -20,12 +20,22 @@ public class HashTable
 
     public void set(string Key, object value)
     {
-        HashTableArray[_Hash(Key)] = value;
+        int hashKey = _Hash(Key);
+        if (HashTableArray[hashKey] == null)
+            HashTableArray[hashKey] = new List<object[]>();
+        var list = (List<object[]>)HashTableArray[hashKey];
+        list.Add(new object[] { Key, value });
     }
 
     public object get(string Key)
     {
-        return HashTableArray[_Hash(Key)];
+        var list = (List<object[]>)HashTableArray[_Hash(Key)];
+        foreach (var item in list)
+        {
+            if (item[0] == Key)
+                return item[1];
+        }
+        return false;
     }
 }
 
@@ -35,7 +45,11 @@ public class Program
     {
         HashTable hashTable = new HashTable(50);
         hashTable.set("Amir", 420);
-        object result = hashTable.get("Amir");
+        hashTable.set("Ami", 658);
+        hashTable.set("Amer", 654);
+
+        object result = hashTable.get("Ami");
+
 
         System.Console.WriteLine(result);
     }

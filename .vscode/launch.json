@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/HAshTable/HashTable.dll",
+            "program": "${workspaceFolder}/HashTable/bin/Debug/net7.0/HashTable.dll",
             "args": [],
             "cwd": "${workspaceFolder}/HashTable",
             "stopAtEntry": false,
