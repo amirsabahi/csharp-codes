@@ -37,6 +37,22 @@ public class HashTable
         }
         return false;
     }
+
+    public List<string> Keys()
+    {
+        List<string> keys = new List<string>();
+        for (int i = 0; i < HashTableArray.Length; i++)
+        {
+            if (HashTableArray[i] != null)
+            {
+                foreach (var item in (List<object[]>)HashTableArray[i])
+                {
+                    keys.Add((string)item[0]);
+                }
+            }
+        }
+        return keys;
+    }
 }
 
 public class Program
@@ -52,5 +68,11 @@ public class Program
 
 
         System.Console.WriteLine(result);
+
+        List<string> keys = hashTable.Keys();
+        foreach (var key in keys)
+        {
+            System.Console.WriteLine(key);
+        }
     }
 }
